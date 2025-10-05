@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Showcase — eShopCo Image Work</title>
+  <meta name="description" content="Demonstration of image compression and deployment notes." />
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; padding: 3rem; max-width: 900px; margin: auto; }
+    header { border-bottom: 1px solid #eee; margin-bottom: 1.5rem; padding-bottom: .5rem; }
+    pre { background:#f7f7f7; padding: 1rem; overflow:auto; }
+    footer { margin-top: 2rem; font-size: .9rem; color: #555; border-top: 1px solid #eee; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Project Showcase — eShopCo Image Work</h1>
+    <p>A short demo page that includes the required obfuscated email and deployment notes.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>This page demonstrates image compression practices, deployment notes, and contains a registered contact email (obfuscated for pages served via Cloudflare).</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>If you need to reach me, here is my email (wrapped per the requirement):</p>
+      <!--email_off-->24f1002542@ds.study.iitm.ac.in<!--/email_off-->
+      <p><em>Note:</em> Cloudflare / GitHub Pages may obfuscate raw mailto links. The comment wrapper above is preserved in the HTML source.</p>
+    </section>
+
+    <section>
+      <h2>Quick Commands</h2>
+      <p>Example command to compress an image (lossless WebP via Pillow):</p>
+      <pre><code>python compress_lossless.py input.png output.webp</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Published via GitHub Pages. Use <code>?v=1</code> or increment to bust cache if a recent change doesn’t appear.</p>
+  </footer>
+</body>
+</html>
